@@ -10,6 +10,10 @@
 1. Clone the repo and cd into it
 
         git clone https://github.com/mrbilalshafiq/CloudFormation-EC2-Instance && cd CloudFormation-EC2-Instance
+        
+ * From here you could enter the below or continue entering the rest of the commands manually
+        
+        bash script.sh
 
 2. Make sure SSH folder exists with the correct permissions
 
