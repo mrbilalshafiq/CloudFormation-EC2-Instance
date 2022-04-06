@@ -11,7 +11,7 @@
 
         git clone https://github.com/mrbilalshafiq/CloudFormation-EC2-Instance && cd CloudFormation-EC2-Instance
         
-  * From here you could enter the below or continue entering the rest of the commands manually
+  * From here you could enter the command below to execute the script and automate the process or continue entering the rest of the commands manually
         
         bash script.sh
 
