@@ -1,0 +1,22 @@
+Resources:
+  Instance1:
+    Type: AWS::EC2::Instance
+    Properties:
+      KeyName: CloudFormationKeyPair
+      ImageId: ami-0015a39e4b7c0966f
+      InstanceType: t2.micro
+      Tags:
+        - Key: "Name"
+          Value: "Example"
+      SecurityGroups:
+        - !Ref AllowSSH
+
+  AllowSSH:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Enable SSH access
+      SecurityGroupIngress:
+        IpProtocol: tcp
+        FromPort: '22'
+        ToPort: '22'
+        CidrIp: 0.0.0.0/0
