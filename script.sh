@@ -1,6 +1,5 @@
  #!/usr/bin/bash
  
-git clone https://github.com/mrbilalshafiq/CloudFormation-EC2-Instance && cd CloudFormation-EC2-Instance
 mkdir -p ~/.ssh && chmod 700 $_
 key_name="CloudFormationKeyPair"
 aws ec2 create-key-pair --key-name ${key_name} --query 'KeyMaterial' --output text > ~/.ssh/${key_name}.pem
