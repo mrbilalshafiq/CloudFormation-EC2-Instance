@@ -7,9 +7,9 @@
 
 ## Step-by-Step Guide
 
-1. Clone the repo to download the CloudFormation template
+1. Clone the repo and cd into it
 
-        git clone https://github.com/mrbilalshafiq/CloudFormation-EC2-Instance
+        git clone https://github.com/mrbilalshafiq/CloudFormation-EC2-Instance && cd CloudFormation-EC2-Instance
 
 2. Make sure SSH folder exists with the correct permissions
 
