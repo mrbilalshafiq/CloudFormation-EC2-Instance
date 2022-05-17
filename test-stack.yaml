@@ -3,7 +3,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       KeyName: CloudFormationKeyPair
-      ImageId: ami-0015a39e4b7c0966f
+      ImageId: ami-00826bd51e68b1487
       InstanceType: t2.micro
       Tags:
         - Key: "Name"
